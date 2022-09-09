@@ -1,0 +1,49 @@
+.d-flex {
+  display: flex !important;
+}
+
+.flex-column {
+  flex-direction: column !important;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.justify-content-between {
+  justify-content: space-between !important;
+}
+
+.justify-content-center {
+  justify-content: center !important;
+}
+
+.align-items-center {
+  align-items: center !important;
+}
+
+.mx-4 {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+.my-3 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.ml-2 {
+  margin-left: 0.25em !important;
+}
+
+.mr-2 {
+  margin-right: 0.25em !important;
+}
+
+.position-relative {
+  position: relative;
+}

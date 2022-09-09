@@ -1,0 +1,21 @@
+.page {
+  display: grid;
+  height: 100vh;
+  grid-template-areas:
+    "nav main"
+    "footer footer";
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: 1fr 90px;
+}
+
+.page main {
+  grid-area: main;
+}
+
+.page nav {
+  grid-area: nav;
+}
+
+.page footer {
+  grid-area: footer;
+}
